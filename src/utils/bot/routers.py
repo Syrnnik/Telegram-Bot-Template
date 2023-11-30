@@ -1,10 +1,9 @@
 from aiogram import Dispatcher
 
+from handlers.start import start_router
+
 
 def set_bot_routers(dispatcher: Dispatcher):
-    # Example of including router
-    # dispatcher.include_routers(
-    #     your-router-1,
-    #     your-router-2
-    # )
-    pass
+    dispatcher.include_routers(
+        start_router,
+    )
