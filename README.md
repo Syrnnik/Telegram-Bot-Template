@@ -1,11 +1,11 @@
 # Telegram-Bot-Template
 
-This GitHub template repository provides a starting point for creating Telegram bots using the aiogram library version
-3.2.0. It aims to streamline the development process by providing a basic project structure and essential files.
+This GitHub template repository provides a starting point for creating Telegram bots using the aiogram 3.
+It aims to streamline the development process by providing a basic project structure and essential files.
 
 ### Features:
 
-✅ Preconfigured development environment with aiogram 3.2.0
+✅ Preconfigured development environment with aiogram 3
 
 ✅ Basic project structure for easy organization of code
 
@@ -13,9 +13,11 @@ This GitHub template repository provides a starting point for creating Telegram 
 
 ✅ Configuration file for storing token and other bot settings
 
-✅ Predefined command handlers for common Telegram bot commands
+✅ Predefined handlers for common Telegram bot commands
 
-✅ Dockerfile for building the Docker image including all dependencies.
+✅ Dockerfile for building the Docker image including all dependencies
+
+✅ Predefined inline and reply Telegram bot keyboards with own handlers
 
 🔜 Exception handling and logging setup
 
@@ -28,11 +30,12 @@ This GitHub template repository provides a starting point for creating Telegram 
 5. Customize the bot implementation in `main.py` to add desired functionality.
 6. Run the bot using `make run` and start interacting with it on Telegram.
 
-The template repository sets up a foundation for building your Telegram bot using aiogram 3.2.0, taking care of the
+The template repository sets up a foundation for building your Telegram bot using aiogram 3, taking care of the
 initial project structure and providing an example implementation. You can further enhance and customize your bot by
 extending the provided codebase according to your requirements.
 
-_Note: Make sure to review the aiogram [documentation](https://docs.aiogram.dev) for in-depth explanations of the
+_Note: Make sure to review the aiogram [documentation](https://docs.aiogram.dev/en/dev-3.x/) for in-depth explanations
+of the
 library's features and explore its capabilities to create powerful and interactive Telegram bots._
 
 Please feel free to modify and adapt this template to suit your specific bot development needs.
