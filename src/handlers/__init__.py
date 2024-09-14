@@ -1,7 +1,7 @@
-from handlers.button import button_router
-from handlers.start import start_router
+from handlers import button
+from handlers import start
 
 all_handlers_routers = [
-    start_router,
-    button_router,
+    start.router,
+    button.router,
 ]

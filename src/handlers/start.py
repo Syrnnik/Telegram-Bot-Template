@@ -8,10 +8,10 @@ from keyboards.inline.example import example_inline_keyboard
 from keyboards.reply.example import example_reply_keyboard
 from states.example import ExampleState
 
-start_router = Router(name=__name__)
+router = Router()
 
 
-@start_router.message(Command(start_command))
+@router.message(Command(start_command))
 async def start(message: Message, state: FSMContext):
     # Set user state
     await state.set_state(ExampleState.example)
