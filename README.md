@@ -47,6 +47,7 @@ _Note: Make sure to review the aiogram [documentation](https://docs.aiogram.dev/
 of the library's features and explore its capabilities to create powerful and interactive Telegram bots._
 
 Please feel free to modify and adapt this template to suit your specific bot development needs.
+
 If you have any idea to improve my repo, just let me know in **Issues**
 
 [I have idea!!](https://github.com/Syrnnik/Telegram-Bot-Template/issues/new)
